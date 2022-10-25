@@ -1,0 +1,16 @@
+service: open meteo
+type: Get weather prediction from open meteo
+image: hojjat12/get-weather-prediction-from-open-meteo:lambda
+fields:
+    - key: latitude
+      type: text
+      description: Latitude of geographical coordinates
+      display_name: latitude
+    - key: longitude
+      type: text
+      description: Longitude of geographical coordinates
+      display_name: longitude
+author: Hojjat-1
+icon: https://cdn-icons-png.flaticon.com/512/3104/3104619.png
+node_color: FE6F48
+description: Get weather prediction of any location by Open-Meteo
